@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2d2dfa;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+small {
+    font-size: 0.9rem;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 5rem;
+}
+
+.branding {
+    color: #fff;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+.navbar .nav-item{
+    display: inline;
+}
+.nav-link {
+    padding: 15px;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.nav-link:hover {
+    color: #fff;
+}
+.nav-link:focus {
+    color: #fff;
+}
+.icon i{
+    padding: 10px;
+    color: #ccc;
+}
+.icon a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3%;
+}
+section a {
+    color: yellow;
+    font-weight: bold;
+}
+.head {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.text-content {
+    width: 45%;
+    color: #fff;
+}
+
+.discribtion {
+    margin: 1rem 0;
+}
+.text-area p:nth-child(1){
+    margin: 1rem 0;
+}
+.text-area p:nth-child(2){
+    margin: 1rem 0;
+}
+
+.fa-envelope {
+    font-size: 2rem;
+}
+
+/* Form */
+
+.form-card {
+    background-color: #fff;
+    padding: 35px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 2px rgb(0,0,0,0.3);
+}
+.form-card h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+form .form-group{
+    margin: 0.5rem 0;
+}
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+}
+label {
+    font-weight: bold;
+    color: #333;
+}
+input[type="submit"] {
+    border: none;
+    background-color: #000066;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form a {
+    color: #bdbd01;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+.social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.or {
+    text-align: center;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
+.facebook {
+    background-color: #000066;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+.google {
+    background-color: darkred;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
+.git {
+    background-color: #525252;;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+}
